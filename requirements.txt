@@ -1,0 +1,11 @@
+# LiveKit Agents SDK (v1.x)
+livekit-agents>=1.0.0,<2.0.0
+
+# Voice-activity detection (on-device, no API key required)
+livekit-plugins-silero>=1.0.0,<2.0.0
+
+# OpenAI STT (Whisper) and TTS (tts-1)
+livekit-plugins-openai>=1.0.0,<2.0.0
+
+# Load environment variables from .env
+python-dotenv>=1.0.0
