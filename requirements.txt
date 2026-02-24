@@ -1,0 +1,11 @@
+# LiveKit Agents SDK (v1.x) — core framework + CLI runner
+livekit-agents>=1.0.0
+
+# OpenAI plugin — provides STT (Whisper) and TTS
+livekit-plugins-openai>=1.0.0
+
+# Silero VAD plugin — voice-activity detection (no API key required)
+livekit-plugins-silero>=1.0.0
+
+# Load environment variables from a .env file
+python-dotenv>=1.0.0

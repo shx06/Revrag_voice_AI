@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revrag-voice-ai"
+version = "0.1.0"
+description = "LiveKit voice agent that echoes user speech via STT + TTS"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    "livekit-agents>=1.0.0",
+    "livekit-plugins-openai>=1.0.0",
+    "livekit-plugins-silero>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+revrag-voice-ai = "revrag_voice_ai.agent:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
